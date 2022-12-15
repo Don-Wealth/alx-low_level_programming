@@ -1,16 +1,19 @@
 #include <stdio.h>
 /**
- * Description: prints the size of various datatypes
- * function - printf
- * Result: Always print 0(succeed)
+ * main - entry point
+ *
+ * Description: A C program that print all datatype
+ *
+ * Return: Always 0 (succeed)
+ *
  */
 int main(void)
-{ 
-	printf("int is    %2d bytes \n", sizeof(short int));
-	printf("long int is  %2d bytes \n", sizeof(long int));
-   	printf("float is    %2d bytes \n", sizeof(float));
-	printf("double is   %2d bytes \n", sizeof(double));
-	printf("long double is  %2d bytes \n", sizeof(long double));
-	printf("char is   %2d bytes \n", sizeof(char));
-	return 0;
-} 
+{
+	printf("Size of a char: %lu bytes \n", sizeof(char int));
+	printf("Size of an int: %lu bytes \n", sizeof(int));
+	printf("Size of a double: %lu bytes \n", sizeof(double));
+	printf("Size of a long int: %lu bytes \n", sizeof(long int));
+	printf("Size of a long long int: %lu bytes \n", sizeof(long long int));
+	printf("Size of a float: %lu bytes \n", sizeof(float));
+	return (0);
+}

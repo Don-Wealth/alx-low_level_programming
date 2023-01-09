@@ -14,7 +14,7 @@ Read or watch:
 . Hash-bang under the hood 
 
 Tasks
-0-preprocessor
+[0-preprocessor](https://github.com/Don-Wealth/alx-low_level_programming/blob/main/0x00-hello_world/README.md#:~:text=Tasks%200%2Dpreprocessor)
 1-compiler
 100-intel
 101-quote.c
